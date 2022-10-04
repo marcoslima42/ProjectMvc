@@ -1,0 +1,35 @@
+O projeto de Vendas é baseado no framework MVC
+
+###############################################################################
+
+O MVC (Model, View e Controller) é uma arquitetura ou padrão que divide as 
+responsabilidades em camadas diferentes, a fim de permitir uma melhor 
+organização do código e prover uma solução estruturada. Esta solução se bem
+aplicada é escalável e reutilizável.Regras de negócios precisam ficar 
+encapsuladas na camadas chamadas Modelo (Model). Um controlador deve dar 
+as direções para o fluxo de dados, dizendo quando acontece e passando a
+responsabilidade para quem deve fazer. A tomadas de decisões em geral, 
+não devem ser realizadas pelo Controller, muito embora, certas decisões 
+menores possam ser aplicadas ao controller. Pense no controller como sendo 
+“aquele que não sabe como fazer mas conhece quem sabe fazer”. A camada modelo,
+deve tratar toda parte de massa de dados, tanto seu armazenamento quanto a tratativa
+aplicada a esses dados. A view é exatamente o que o nome diz: uma visão. 
+A view deve exibir os dados para o usuário, seja por meio de relatórios,
+formulários, grades de dados, etc.
+
+################################################################################
+
+O projeto foi desenvolvido com SGBD 'Myslq' junto ao xamp
+Os dados se encontram no banco de dados 'atividade 10', contendo 3 tabelas.
+
+@@@@  INTERFACE  @@@@
+
+
+A interface do projeto é renderizada via navegador por HTML.
+Rederizando algo simplificado.
+
+@@@@  Etapas  @@@@
+1 desenvolvimento do banco de dados 
+2 criacao da pastas do mvc
+3 conectar o banco com a aplicação
+4 teste
